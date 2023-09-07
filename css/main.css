@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MuseoModerno&display=swap");
+
+* {
+    font-family: "MuseoModerno", cursive;
+}
+
+.header {
+    height: 85px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 5px darkred;
+}
+
+.header > a, img {
+    width: 70px;
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+img:hover {
+    transition: 0.5s;
+    border-radius: 40%;
+    border: 2px solid red;
+    transform: scale(0.9);
+    box-shadow: 0 0 20px 2px darkred;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px auto;
+    flex-direction: column;
+}
+
+.header span, a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    font-size: 22px;
+    transition: 0.5s;
+    text-shadow: 0 0 20px red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+}
+
+button {
+    color: white;
+    margin: 20px 5px 0;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid black;
+}
+
+button:hover {
+    color: black;
+    transition: 0.5s;
+    border: 2px solid red;
+    background-color: ghostwhite;
+}
+
+.all-tables {
+    padding: 20px;
+    display: table;
+    text-align: center;
+    margin: 30px auto auto;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px 1px black;
+}
+
+.graph-data td > svg {
+    padding: 15px;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 0 0 5px 0 aqua;
+}
+
+.graph-data td > form {
+    margin-left: 50px;
+    border-radius: 7%;
+    background-color: pink;
+    padding: 25px 25px 20px 25px;
+}
+
+.table-check {
+    color: white;
+    max-width: 80%;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.table-header > th {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.table-row > td {
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.table-row:nth-of-type(odd) {
+    margin: 0;
+    background-color: #1f1f1f;
+}
+
+.x-checkboxes::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+#coordinates-form label > input {
+    margin: 5px;
+    text-align: center;
+}
+
